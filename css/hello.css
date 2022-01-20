@@ -1,0 +1,126 @@
+body {
+  background-color: #edf2f7;
+  font-family: arial;
+}
+
+header,
+.card-deck,
+footer {
+  width: 960px;
+  background-color: #fff;
+  margin: 40px auto;
+}
+
+header {
+  text-align: center;
+}
+
+h1,
+span {
+  color: #4296D4;
+}
+
+h1,
+h2{
+  margin: 0;
+}
+
+h1 {
+  font-size: 125px;
+}
+
+h2 {
+  color: #8594ad;
+  font-size: 32px;
+  padding-bottom: 60px;
+}
+
+.image-container {
+  margin-bottom: 20px;
+}
+
+.card-deck h2,
+ul {
+  text-align: center;
+}
+
+li {
+  color: #68778d;
+  font-size: 18px;
+  padding: 16px 0;
+}
+
+.card-deck ul li:last-child {
+  padding-bottom: 32px;
+}
+
+.hire-btn {
+  font-size: 24px;
+  font-weight: 600;
+  padding: 12px;
+}
+
+.hire-btn:link, .hire-btn:visited {
+  background-color: #fff;
+  color: #68778d;
+  border: 2px solid #dd6b20;
+}
+
+.hire-btn:hover, .hire-btn:active {
+  background-color: #dd6b20;
+  color: #fff;
+}
+
+.card-deck {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #edf2f7;
+}
+
+.card-deck section {
+  width: 300px;
+  background-color: #fff;
+}
+
+footer {
+  height: 48px;
+  line-height: 48px;
+  text-indent: 32px;
+}
+footer p {
+  font-style: italic;
+  color: #68778d;
+}
+
+/* --- Navigational behaviours --- */
+
+a {
+  color: grey;
+}
+
+/* unvisited & visited links */
+a:link, a:visited {
+  color: #68778d;
+}
+
+/* mouse over link & selected links */
+a:hover, a:active {
+  color: #000;
+}
+
+.flex-container li {
+  display: inline;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 50px;
+  font-size: 22px;
+}
+
+.flex-container {
+  background: rgb(250, 250, 250);
+  padding: 8px 16px;
+  border-bottom: 1px solid rgb(222, 222, 222);
+  box-shadow: 0 0 8px 0 rgb(222, 222, 222);
+  min-width: 960px;
+}
